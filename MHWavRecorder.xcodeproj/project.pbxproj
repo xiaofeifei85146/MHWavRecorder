@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6EBECA1D767E6700860620 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EBEC91D767E6700860620 /* main.m */; };
+		EC6EBECD1D767E6700860620 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EBECC1D767E6700860620 /* AppDelegate.m */; };
+		EC6EBED01D767E6700860620 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EBECF1D767E6700860620 /* ViewController.m */; };
+		EC6EBED31D767E6700860620 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6EBED11D767E6700860620 /* Main.storyboard */; };
+		EC6EBED51D767E6700860620 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6EBED41D767E6700860620 /* Assets.xcassets */; };
+		EC6EBED81D767E6700860620 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6EBED61D767E6700860620 /* LaunchScreen.storyboard */; };
+		EC6EBEE31D767E6700860620 /* MHWavRecorderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EBEE21D767E6700860620 /* MHWavRecorderTests.m */; };
+		EC6EBEEE1D767E6700860620 /* MHWavRecorderUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EBEED1D767E6700860620 /* MHWavRecorderUITests.m */; };
+		EC6EBF231D767E9200860620 /* AmrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EBEFF1D767E9200860620 /* AmrFileCodec.m */; };
+		EC6EBF241D767E9200860620 /* AudioFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EBF011D767E9200860620 /* AudioFormat.m */; };
+		EC6EBF251D767E9200860620 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6EBF031D767E9200860620 /* libopencore-amrnb.a */; };
+		EC6EBF261D767E9200860620 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6EBF041D767E9200860620 /* libopencore-amrwb.a */; };
+		EC6EBF271D767E9200860620 /* libspeex.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6EBF0C1D767E9200860620 /* libspeex.a */; };
+		EC6EBF281D767E9200860620 /* libspeexdsp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6EBF0D1D767E9200860620 /* libspeexdsp.a */; };
+		EC6EBF291D767E9200860620 /* SpeexCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EBF1C1D767E9200860620 /* SpeexCodec.m */; };
+		EC6EBF2A1D767E9200860620 /* EMAudioRecorderUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EBF201D767E9200860620 /* EMAudioRecorderUtil.m */; };
+		EC6EBF2B1D767E9200860620 /* WavRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6EBF221D767E9200860620 /* WavRecorder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC6EBEDF1D767E6700860620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6EBEBD1D767E6700860620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6EBEC41D767E6700860620;
+			remoteInfo = MHWavRecorder;
+		};
+		EC6EBEEA1D767E6700860620 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC6EBEBD1D767E6700860620 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6EBEC41D767E6700860620;
+			remoteInfo = MHWavRecorder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC6EBEC51D767E6700860620 /* MHWavRecorder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MHWavRecorder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6EBEC91D767E6700860620 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC6EBECB1D767E6700860620 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC6EBECC1D767E6700860620 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC6EBECE1D767E6700860620 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC6EBECF1D767E6700860620 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC6EBED21D767E6700860620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6EBED41D767E6700860620 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6EBED71D767E6700860620 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC6EBED91D767E6700860620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6EBEDE1D767E6700860620 /* MHWavRecorderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHWavRecorderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6EBEE21D767E6700860620 /* MHWavRecorderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHWavRecorderTests.m; sourceTree = "<group>"; };
+		EC6EBEE41D767E6700860620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6EBEE91D767E6700860620 /* MHWavRecorderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MHWavRecorderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6EBEED1D767E6700860620 /* MHWavRecorderUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MHWavRecorderUITests.m; sourceTree = "<group>"; };
+		EC6EBEEF1D767E6700860620 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6EBEFE1D767E9200860620 /* AmrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AmrFileCodec.h; sourceTree = "<group>"; };
+		EC6EBEFF1D767E9200860620 /* AmrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AmrFileCodec.m; sourceTree = "<group>"; };
+		EC6EBF001D767E9200860620 /* AudioFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFormat.h; sourceTree = "<group>"; };
+		EC6EBF011D767E9200860620 /* AudioFormat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioFormat.m; sourceTree = "<group>"; };
+		EC6EBF031D767E9200860620 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		EC6EBF041D767E9200860620 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		EC6EBF061D767E9200860620 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		EC6EBF071D767E9200860620 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		EC6EBF091D767E9200860620 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		EC6EBF0A1D767E9200860620 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		EC6EBF0C1D767E9200860620 /* libspeex.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspeex.a; sourceTree = "<group>"; };
+		EC6EBF0D1D767E9200860620 /* libspeexdsp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libspeexdsp.a; sourceTree = "<group>"; };
+		EC6EBF0E1D767E9200860620 /* speex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex.h; sourceTree = "<group>"; };
+		EC6EBF0F1D767E9200860620 /* speex_bits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_bits.h; sourceTree = "<group>"; };
+		EC6EBF101D767E9200860620 /* speex_buffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_buffer.h; sourceTree = "<group>"; };
+		EC6EBF111D767E9200860620 /* speex_callbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_callbacks.h; sourceTree = "<group>"; };
+		EC6EBF121D767E9200860620 /* speex_config_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_config_types.h; sourceTree = "<group>"; };
+		EC6EBF131D767E9200860620 /* speex_echo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_echo.h; sourceTree = "<group>"; };
+		EC6EBF141D767E9200860620 /* speex_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_header.h; sourceTree = "<group>"; };
+		EC6EBF151D767E9200860620 /* speex_jitter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_jitter.h; sourceTree = "<group>"; };
+		EC6EBF161D767E9200860620 /* speex_preprocess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_preprocess.h; sourceTree = "<group>"; };
+		EC6EBF171D767E9200860620 /* speex_resampler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_resampler.h; sourceTree = "<group>"; };
+		EC6EBF181D767E9200860620 /* speex_stereo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_stereo.h; sourceTree = "<group>"; };
+		EC6EBF191D767E9200860620 /* speex_types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = speex_types.h; sourceTree = "<group>"; };
+		EC6EBF1A1D767E9200860620 /* SpeexAllHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexAllHeader.h; sourceTree = "<group>"; };
+		EC6EBF1B1D767E9200860620 /* SpeexCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpeexCodec.h; sourceTree = "<group>"; };
+		EC6EBF1C1D767E9200860620 /* SpeexCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpeexCodec.m; sourceTree = "<group>"; };
+		EC6EBF1E1D767E9200860620 /* EaseLocalDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseLocalDefine.h; sourceTree = "<group>"; };
+		EC6EBF1F1D767E9200860620 /* EMAudioRecorderUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMAudioRecorderUtil.h; sourceTree = "<group>"; };
+		EC6EBF201D767E9200860620 /* EMAudioRecorderUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMAudioRecorderUtil.m; sourceTree = "<group>"; };
+		EC6EBF211D767E9200860620 /* WavRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavRecorder.h; sourceTree = "<group>"; };
+		EC6EBF221D767E9200860620 /* WavRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavRecorder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6EBEC21D767E6700860620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6EBF261D767E9200860620 /* libopencore-amrwb.a in Frameworks */,
+				EC6EBF271D767E9200860620 /* libspeex.a in Frameworks */,
+				EC6EBF251D767E9200860620 /* libopencore-amrnb.a in Frameworks */,
+				EC6EBF281D767E9200860620 /* libspeexdsp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6EBEDB1D767E6700860620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6EBEE61D767E6700860620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC6EBEBC1D767E6700860620 = {
+			isa = PBXGroup;
+			children = (
+				EC6EBEFB1D767E9200860620 /* WavRecorder */,
+				EC6EBEC71D767E6700860620 /* MHWavRecorder */,
+				EC6EBEE11D767E6700860620 /* MHWavRecorderTests */,
+				EC6EBEEC1D767E6700860620 /* MHWavRecorderUITests */,
+				EC6EBEC61D767E6700860620 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6EBEC61D767E6700860620 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBEC51D767E6700860620 /* MHWavRecorder.app */,
+				EC6EBEDE1D767E6700860620 /* MHWavRecorderTests.xctest */,
+				EC6EBEE91D767E6700860620 /* MHWavRecorderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6EBEC71D767E6700860620 /* MHWavRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBECB1D767E6700860620 /* AppDelegate.h */,
+				EC6EBECC1D767E6700860620 /* AppDelegate.m */,
+				EC6EBECE1D767E6700860620 /* ViewController.h */,
+				EC6EBECF1D767E6700860620 /* ViewController.m */,
+				EC6EBED11D767E6700860620 /* Main.storyboard */,
+				EC6EBED41D767E6700860620 /* Assets.xcassets */,
+				EC6EBED61D767E6700860620 /* LaunchScreen.storyboard */,
+				EC6EBED91D767E6700860620 /* Info.plist */,
+				EC6EBEC81D767E6700860620 /* Supporting Files */,
+			);
+			path = MHWavRecorder;
+			sourceTree = "<group>";
+		};
+		EC6EBEC81D767E6700860620 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBEC91D767E6700860620 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC6EBEE11D767E6700860620 /* MHWavRecorderTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBEE21D767E6700860620 /* MHWavRecorderTests.m */,
+				EC6EBEE41D767E6700860620 /* Info.plist */,
+			);
+			path = MHWavRecorderTests;
+			sourceTree = "<group>";
+		};
+		EC6EBEEC1D767E6700860620 /* MHWavRecorderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBEED1D767E6700860620 /* MHWavRecorderUITests.m */,
+				EC6EBEEF1D767E6700860620 /* Info.plist */,
+			);
+			path = MHWavRecorderUITests;
+			sourceTree = "<group>";
+		};
+		EC6EBEFB1D767E9200860620 /* WavRecorder */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBEFC1D767E9200860620 /* AudioModule */,
+				EC6EBF1D1D767E9200860620 /* WavLib */,
+				EC6EBF211D767E9200860620 /* WavRecorder.h */,
+				EC6EBF221D767E9200860620 /* WavRecorder.m */,
+			);
+			path = WavRecorder;
+			sourceTree = "<group>";
+		};
+		EC6EBEFC1D767E9200860620 /* AudioModule */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBEFD1D767E9200860620 /* AMRModule */,
+				EC6EBF001D767E9200860620 /* AudioFormat.h */,
+				EC6EBF011D767E9200860620 /* AudioFormat.m */,
+				EC6EBF021D767E9200860620 /* OpenCoreAMR */,
+				EC6EBF0B1D767E9200860620 /* speex */,
+				EC6EBF1A1D767E9200860620 /* SpeexAllHeader.h */,
+				EC6EBF1B1D767E9200860620 /* SpeexCodec.h */,
+				EC6EBF1C1D767E9200860620 /* SpeexCodec.m */,
+			);
+			path = AudioModule;
+			sourceTree = "<group>";
+		};
+		EC6EBEFD1D767E9200860620 /* AMRModule */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBEFE1D767E9200860620 /* AmrFileCodec.h */,
+				EC6EBEFF1D767E9200860620 /* AmrFileCodec.m */,
+			);
+			path = AMRModule;
+			sourceTree = "<group>";
+		};
+		EC6EBF021D767E9200860620 /* OpenCoreAMR */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBF031D767E9200860620 /* libopencore-amrnb.a */,
+				EC6EBF041D767E9200860620 /* libopencore-amrwb.a */,
+				EC6EBF051D767E9200860620 /* opencore-amrnb */,
+				EC6EBF081D767E9200860620 /* opencore-amrwb */,
+			);
+			path = OpenCoreAMR;
+			sourceTree = "<group>";
+		};
+		EC6EBF051D767E9200860620 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBF061D767E9200860620 /* interf_dec.h */,
+				EC6EBF071D767E9200860620 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		EC6EBF081D767E9200860620 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBF091D767E9200860620 /* dec_if.h */,
+				EC6EBF0A1D767E9200860620 /* if_rom.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		EC6EBF0B1D767E9200860620 /* speex */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBF0C1D767E9200860620 /* libspeex.a */,
+				EC6EBF0D1D767E9200860620 /* libspeexdsp.a */,
+				EC6EBF0E1D767E9200860620 /* speex.h */,
+				EC6EBF0F1D767E9200860620 /* speex_bits.h */,
+				EC6EBF101D767E9200860620 /* speex_buffer.h */,
+				EC6EBF111D767E9200860620 /* speex_callbacks.h */,
+				EC6EBF121D767E9200860620 /* speex_config_types.h */,
+				EC6EBF131D767E9200860620 /* speex_echo.h */,
+				EC6EBF141D767E9200860620 /* speex_header.h */,
+				EC6EBF151D767E9200860620 /* speex_jitter.h */,
+				EC6EBF161D767E9200860620 /* speex_preprocess.h */,
+				EC6EBF171D767E9200860620 /* speex_resampler.h */,
+				EC6EBF181D767E9200860620 /* speex_stereo.h */,
+				EC6EBF191D767E9200860620 /* speex_types.h */,
+			);
+			path = speex;
+			sourceTree = "<group>";
+		};
+		EC6EBF1D1D767E9200860620 /* WavLib */ = {
+			isa = PBXGroup;
+			children = (
+				EC6EBF1E1D767E9200860620 /* EaseLocalDefine.h */,
+				EC6EBF1F1D767E9200860620 /* EMAudioRecorderUtil.h */,
+				EC6EBF201D767E9200860620 /* EMAudioRecorderUtil.m */,
+			);
+			path = WavLib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6EBEC41D767E6700860620 /* MHWavRecorder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6EBEF21D767E6700860620 /* Build configuration list for PBXNativeTarget "MHWavRecorder" */;
+			buildPhases = (
+				EC6EBEC11D767E6700860620 /* Sources */,
+				EC6EBEC21D767E6700860620 /* Frameworks */,
+				EC6EBEC31D767E6700860620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MHWavRecorder;
+			productName = MHWavRecorder;
+			productReference = EC6EBEC51D767E6700860620 /* MHWavRecorder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC6EBEDD1D767E6700860620 /* MHWavRecorderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6EBEF51D767E6700860620 /* Build configuration list for PBXNativeTarget "MHWavRecorderTests" */;
+			buildPhases = (
+				EC6EBEDA1D767E6700860620 /* Sources */,
+				EC6EBEDB1D767E6700860620 /* Frameworks */,
+				EC6EBEDC1D767E6700860620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6EBEE01D767E6700860620 /* PBXTargetDependency */,
+			);
+			name = MHWavRecorderTests;
+			productName = MHWavRecorderTests;
+			productReference = EC6EBEDE1D767E6700860620 /* MHWavRecorderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC6EBEE81D767E6700860620 /* MHWavRecorderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6EBEF81D767E6700860620 /* Build configuration list for PBXNativeTarget "MHWavRecorderUITests" */;
+			buildPhases = (
+				EC6EBEE51D767E6700860620 /* Sources */,
+				EC6EBEE61D767E6700860620 /* Frameworks */,
+				EC6EBEE71D767E6700860620 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6EBEEB1D767E6700860620 /* PBXTargetDependency */,
+			);
+			name = MHWavRecorderUITests;
+			productName = MHWavRecorderUITests;
+			productReference = EC6EBEE91D767E6700860620 /* MHWavRecorderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6EBEBD1D767E6700860620 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Teplot_03;
+				TargetAttributes = {
+					EC6EBEC41D767E6700860620 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					EC6EBEDD1D767E6700860620 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC6EBEC41D767E6700860620;
+					};
+					EC6EBEE81D767E6700860620 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = EC6EBEC41D767E6700860620;
+					};
+				};
+			};
+			buildConfigurationList = EC6EBEC01D767E6700860620 /* Build configuration list for PBXProject "MHWavRecorder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6EBEBC1D767E6700860620;
+			productRefGroup = EC6EBEC61D767E6700860620 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6EBEC41D767E6700860620 /* MHWavRecorder */,
+				EC6EBEDD1D767E6700860620 /* MHWavRecorderTests */,
+				EC6EBEE81D767E6700860620 /* MHWavRecorderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6EBEC31D767E6700860620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6EBED81D767E6700860620 /* LaunchScreen.storyboard in Resources */,
+				EC6EBED51D767E6700860620 /* Assets.xcassets in Resources */,
+				EC6EBED31D767E6700860620 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6EBEDC1D767E6700860620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6EBEE71D767E6700860620 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6EBEC11D767E6700860620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6EBF291D767E9200860620 /* SpeexCodec.m in Sources */,
+				EC6EBED01D767E6700860620 /* ViewController.m in Sources */,
+				EC6EBF2A1D767E9200860620 /* EMAudioRecorderUtil.m in Sources */,
+				EC6EBECD1D767E6700860620 /* AppDelegate.m in Sources */,
+				EC6EBF2B1D767E9200860620 /* WavRecorder.m in Sources */,
+				EC6EBECA1D767E6700860620 /* main.m in Sources */,
+				EC6EBF231D767E9200860620 /* AmrFileCodec.m in Sources */,
+				EC6EBF241D767E9200860620 /* AudioFormat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6EBEDA1D767E6700860620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6EBEE31D767E6700860620 /* MHWavRecorderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6EBEE51D767E6700860620 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6EBEEE1D767E6700860620 /* MHWavRecorderUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC6EBEE01D767E6700860620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6EBEC41D767E6700860620 /* MHWavRecorder */;
+			targetProxy = EC6EBEDF1D767E6700860620 /* PBXContainerItemProxy */;
+		};
+		EC6EBEEB1D767E6700860620 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6EBEC41D767E6700860620 /* MHWavRecorder */;
+			targetProxy = EC6EBEEA1D767E6700860620 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC6EBED11D767E6700860620 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6EBED21D767E6700860620 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC6EBED61D767E6700860620 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6EBED71D767E6700860620 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6EBEF01D767E6700860620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC6EBEF11D767E6700860620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6EBEF31D767E6700860620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MHWavRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WavRecorder/AudioModule/OpenCoreAMR",
+					"$(PROJECT_DIR)/WavRecorder/AudioModule/speex",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teplot.MHWavRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC6EBEF41D767E6700860620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MHWavRecorder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WavRecorder/AudioModule/OpenCoreAMR",
+					"$(PROJECT_DIR)/WavRecorder/AudioModule/speex",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.teplot.MHWavRecorder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC6EBEF61D767E6700860620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MHWavRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teplot.MHWavRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MHWavRecorder.app/MHWavRecorder";
+			};
+			name = Debug;
+		};
+		EC6EBEF71D767E6700860620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MHWavRecorderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teplot.MHWavRecorderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MHWavRecorder.app/MHWavRecorder";
+			};
+			name = Release;
+		};
+		EC6EBEF91D767E6700860620 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MHWavRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teplot.MHWavRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MHWavRecorder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC6EBEFA1D767E6700860620 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MHWavRecorderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.teplot.MHWavRecorderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MHWavRecorder;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6EBEC01D767E6700860620 /* Build configuration list for PBXProject "MHWavRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6EBEF01D767E6700860620 /* Debug */,
+				EC6EBEF11D767E6700860620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6EBEF21D767E6700860620 /* Build configuration list for PBXNativeTarget "MHWavRecorder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6EBEF31D767E6700860620 /* Debug */,
+				EC6EBEF41D767E6700860620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC6EBEF51D767E6700860620 /* Build configuration list for PBXNativeTarget "MHWavRecorderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6EBEF61D767E6700860620 /* Debug */,
+				EC6EBEF71D767E6700860620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC6EBEF81D767E6700860620 /* Build configuration list for PBXNativeTarget "MHWavRecorderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6EBEF91D767E6700860620 /* Debug */,
+				EC6EBEFA1D767E6700860620 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6EBEBD1D767E6700860620 /* Project object */;
+}
